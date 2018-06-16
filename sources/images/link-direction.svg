@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.75 45.13" >
+    <defs>
+        <style>
+        .fleche-cls-1 {
+            fill: white;
+        }
+
+        .fleche-cls-2 {
+            fill: none;
+            stroke: white;
+            stroke-miterlimit: 10;
+            stroke-width: 4px;
+        }
+        </style>
+    </defs>
+    <path class="fleche-cls-1" d="M10.5,24.63H29.7l-4.62,4.62a1.9,1.9,0,0,0-.58,1.38,2,2,0,0,0,2,2A1.89,1.89,0,0,0,27.88,32l8-8a1.92,1.92,0,0,0,.66-1.46,1.81,1.81,0,0,0-.65-1.45l-8-8a1.89,1.89,0,0,0-1.38-.58,2,2,0,0,0-2,2A1.9,1.9,0,0,0,25.08,16l4.62,4.62H10.5a2,2,0,0,0,0,4Z"></path>
+    <circle class="fleche-cls-2" cx="22.5" cy="22.63" r="20.5"></circle>
+</svg>
