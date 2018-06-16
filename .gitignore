@@ -34,8 +34,8 @@ msater/*_*.html
 #development/
 
 #sourcefiles
-source/
-sources/
+source
+sources
 
 .sass-cache/
 *.css.map
