@@ -33,6 +33,10 @@ master/json/*_*.json
 msater/*_*.html
 #development/
 
+#sourcefiles
+source/
+sources/
+
 .sass-cache/
 *.css.map
 
