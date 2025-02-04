@@ -22,5 +22,6 @@ END { if (c) print "" }            # Ensure file ends with a newline (if needed)
 ' README.md > README.md.tmp && mv README.md.tmp README.md
 
 # Append the new content
+printf "$new_content"
 printf "$new_content" >> README.md
 
