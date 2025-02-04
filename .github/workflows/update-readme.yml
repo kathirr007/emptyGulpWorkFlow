@@ -3,6 +3,8 @@ name: Update README
 on:
   schedule:
     - cron: '0 0 * * *' # Runs daily at midnight UTC
+  push:
+    branches: [ "master" ]
 
 jobs:
   update-readme:
