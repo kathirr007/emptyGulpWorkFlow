@@ -12,6 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Set up the script permission
+        run: chmod +x update_readme.sh
+
       - name: Generate README content
         id: generate_readme
         run: |
