@@ -25,7 +25,11 @@ jobs:
           ./update_readme.sh
           # Add more content as needed
 
-      - name: Commit and push changes
+      - name: Commit files
+        run: |
+          git commit -a -m "Updated Readme"
+
+      - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
