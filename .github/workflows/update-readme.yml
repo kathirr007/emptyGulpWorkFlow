@@ -3,6 +3,7 @@ name: Update README
 on:
   schedule:
     - cron: '0 0 * * *' # Runs daily at midnight UTC
+  workflow_dispatch: 
   # push:
     # branches: [ "master" ]
 
@@ -10,7 +11,7 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
 
       - name: Set up the script permission
         run: chmod +x update_readme.sh
